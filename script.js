@@ -1,9 +1,10 @@
 // Declare varient.querySelector("class=option-one")
-let button=document.querySelector(".down")
-let image=document.querySelector(".optionOneScreen")
+let optiononescreen=document.querySelector(".down");
+let image=document.querySelector(".optionOneScreen");
 
-button.addEventListener('click', function(){
-    img.style.display="block"
+optiononescreen.addEventListener('click', function(){
+    console.log("test");
+    image.style.display="block"
 });
 
 
