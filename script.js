@@ -1,4 +1,11 @@
-// Declare variables below to save the different divs of your story.
+// Declare varient.querySelector("class=option-one")
+let button=document.querySelector(".down")
+let image=document.querySelector(".optionOneScreen")
+
+button.addEventListener('click', function(){
+    img.style.display="block"
+});
+
 
 
 

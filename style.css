@@ -34,8 +34,6 @@ body {
 
 /* Style the story opening container */
 .story-opening {
-    background-color: #fff;
-    border: 1px solid #ccc;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -64,8 +62,8 @@ button {
     font-size: 16px;
     padding: 10px 20px;
     margin: 10px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: black;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -73,7 +71,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: red;
 }
 
 /* Style the screens for option one and option two */
@@ -81,8 +79,6 @@ button:hover {
 .option-two-screen,
 .option-one-end,
 .option-two-end {
-    background-color: #fff;
-    border: 1px solid #ccc;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -106,4 +102,38 @@ button:hover {
 .option-two-end h1 {
     font-size: 20px;
     margin-bottom: 20px;
+}
+img {
+    width:600px;
+    height:300px;
+}
+body {
+    background-color:black;
+}
+h1 {
+    color:red;
+}
+.title {
+    color:red;
+}
+.gotobed {
+    filter: invert(100%);
+}
+.optionOneScreen {
+    display:none;
+}
+.optionTwoScreen {
+    display:none;
+}
+.optionOneEnd {
+    display:none;
+}
+.optionTwoEnd{
+    display:none;
+}
+.endingOne {
+    display:none;
+}
+.endingTwo {
+    display:none;
 }
