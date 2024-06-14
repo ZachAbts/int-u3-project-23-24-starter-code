@@ -97,9 +97,7 @@ button:hover {
 
 /* Style the text in the screens */
 .optionOneScreen h1,
-.optionTwoScreen h1,
-.optionOneEnd h1,
-.optionTwoEnd h1 {
+.optionEnd h1 {
     font-size: 20px;
     margin-bottom: 20px;
 }
@@ -122,18 +120,12 @@ h1 {
 .optionOneScreen {
     display:none;
 }
-.optionTwoScreen {
+.optionEnd{
     display:none;
 }
-.optionOneEnd {
-    display:none;
+.button1L:hover {
+   text-align:center;
 }
-.optionTwoEnd{
-    display:none;
-}
-.endingOne {
-    display:none;
-}
-.endingTwo {
-    display:none;
+.button2:hover {
+    text-align:center;
 }

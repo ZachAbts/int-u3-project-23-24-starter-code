@@ -1,10 +1,31 @@
 // Declare varient.querySelector("class=option-one")
-let optiononescreen=document.querySelector(".down");
-let image=document.querySelector(".optionOneScreen");
+let optiononebutton=document.querySelector(".down");
+let optiontwobutton=document.querySelector(".bed")
+let screenOne=document.querySelector(".optionOneScreen");
+let screenEnd=document.querySelector(".optionEnd")
+let button1=document.querySelector(".button1")
+let button2=document.querySelector(".button2")
 
-optiononescreen.addEventListener('click', function(){
+optiononebutton.addEventListener('click', function(){
     console.log("test");
-    image.style.display="block"
+    screenOne.style.display="block"
+    screenEnd.style.display="none"
+});
+let optionEnd=document.querySelector(".bed");
+optiontwobutton.addEventListener('click', function() {
+    console.log("two");
+    screenEnd.style.display="block"
+    screenOne.style.display="none"
+});
+button1.addEventListener('click', function() {
+    console.log("two");
+    screenEnd.style.display="block"
+    screenOne.style.display="none"
+});
+button2.addEventListener('click', function(){
+    console.log("two");
+    screenEnd.style.display="block"
+    screenOne.style.display="none"
 });
 
 
